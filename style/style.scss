@@ -1,0 +1,37 @@
+body{
+    background-color: black;
+    color: white;
+    margin: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    margin-bottom: 25px;
+}
+label{
+    padding-right: 5%;
+}
+ul{
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1em;
+}
+
+@media (min-width: 690px){
+    ul{
+        grid-template-columns: repeat(2, 1fr); 
+    }
+}
+
+@media (min-width: 1000px){
+    ul{
+        grid-template-columns: repeat(3, 1fr); 
+    }
+}
+
+@media (min-width: 1630px){
+    ul{
+        grid-template-columns: repeat(5, 1fr); 
+    }
+}

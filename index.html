@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+       <head>
+    <!-- hier zet je de code in de head tags -->
+         <title> Filmzoeker </title>
+         <link rel="stylesheet" href="./style/style.css">
+         <script defer type='text/javascript' src='./script/movies.js'></script>
+         <script defer type='text/javascript' src='./script/script-difficult.js'></script>
+       </head>
+       <body>
+         <h1>Welkom bij de Winc Filmzoeker</h1>
+         <nav>
+           <input id='Year' name='filter-btn' value='2014' type='radio'>
+           <label for='Year'>Laatste Films, 2014 of nieuwer</label>
+           <input id='avenger' name='filter-btn' value='avenger' type='radio'>
+           <label for='avenger'>Avenger Films</label>
+           <input id='xmen' name='filter-btn' value='x-men' type='radio'>
+           <label for='xmen'>X-men Films</label>
+           <input id='princess' name='filter-btn' value='princess' type='radio'>
+           <label for='princess'>Princess Films</label>
+           <input id='batman' name='filter-btn' value='batman' type='radio'>
+           <label for='batman'>Batman Films</label>
+           <input id='search-field' name='q' type='search' placeholder='Search movies...'>
+         </nav>
+         <main>
+            <ul id='film-list' class=''></ul>
+         </main>
+         <footer>
+           <hr>
+           <p>Created by Janos Fadgyas, 2020</p>
+         </footer>
+       </body>
+</html>
